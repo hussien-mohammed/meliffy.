@@ -1,0 +1,21 @@
+@media screen and (max-width: 950px) {
+
+}
+  @media screen and (max-width: 992px) {
+    .main-img{
+        width: 100%;
+        margin: .875rem;
+        order: 1;
+    }
+    .main-text{
+        width: 100%;
+        order: 2;
+    }
+    .chifs{
+      display: flex;
+      flex-direction: column;
+    }
+    .chif-card{
+     flex-basis: 100%;
+    }
+  } 
